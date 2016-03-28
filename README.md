@@ -23,10 +23,12 @@ None
 Example Playbook
 ----------------
 
-    - hosts: servers
+```yaml
+- hosts: servers
 
-      roles:
-        - { role: ANSI-RW.repo-epel }
+  roles:
+    - { role: ANSI-RW.repo-epel }
+```
 
 License
 -------
